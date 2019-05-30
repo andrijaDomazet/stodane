@@ -18,16 +18,29 @@ const Gornji = (props) => {
       <Jumbotron style={ sectionStyle }>
         <NavBar/>
         <div className="jumbostyle">
-          <img src={Slika1} width="50%" alt="slika1"/>
-          <img src={Slika2} width="50%" alt="slika2"/>
+          <div className="row">
+            <div className="col-sm-6">
+        <h5>Gratis tablet za prvih 100</h5>
+            <img src={Slika1} width="60%" alt="slika1"/> 
+         <p>Lorem ipsum dolor sit amet.</p>
+            <p className="lead">
+          <Button color="primary">Smartphone 9.2</Button>
+        </p>
+            </div>
+            <div className="col-sm-6">
+     <img src={Slika2} width="100%" alt="slika2"/> 
+            </div>
+                     
+     
+          </div>
+
+       
         <div className="row">
-        <Kartica1/>
+        {/* <Kartica1/> */}
         
         </div>
 
-        <p className="lead">
-          <Button color="primary">Smartphone 9.2</Button>
-        </p> 
+      
          </div>
       </Jumbotron>
   
