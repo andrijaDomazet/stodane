@@ -5,6 +5,7 @@
 }
 .textstyle{
     margin-top: 2%;
+    font-size: 1.29rem;
 }
 p{
     width: 50%;
@@ -16,7 +17,7 @@ p{
 .lead{
     background-color: #ff8000;
     position: center;
-    width: 10rem;
+    width: 9rem;
     margin: 0 auto;
     border-radius: 3px;
 }
