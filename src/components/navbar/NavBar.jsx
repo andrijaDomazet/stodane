@@ -2,16 +2,12 @@ import React from 'react';
 import {
   Collapse,
   Navbar,
-  NavbarToggler,
-  NavbarBrand,
+  NavbarToggler, 
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  NavLink} from 'reactstrap';
   import Slika3 from './img/Tesla-logo.png'
+  import './NavBar.css'
   
 
 export default class NavBar extends React.Component {
@@ -31,9 +27,8 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
-       <img src={Slika3} width="10%" alt="slika2"/> 
-         
+        <Navbar  fixed={`top`} light expand="md">
+        <img src={Slika3} width="auto" alt="slika2"/>          
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
