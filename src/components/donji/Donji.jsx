@@ -6,42 +6,42 @@ export default class Example extends React.Component {
   render() {
     return (<div className="col-sm-8 donji">
        <Form>
-         <h3>OSTAVI SVOJE PODATKE</h3>
-         <div className='row'>
-            <div className='col-sm-6'>
+         
+         
+          <div className='col-sm-6'>
+          <h3>OSTAVI SVOJE PODATKE</h3>
               <FormGroup>
-                <Label for="exampleEmail">Email</Label>
-                <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+              <Label for="exampleEmail"></Label>
+              <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
               </FormGroup>
-        </div>
-            <div className='col-sm-6'></div>
-          
-
-         </div>
-       
-        <FormGroup>
-          <Label for="examplePassword">Password</Label>
-          <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
-        </FormGroup>
+          </div>
         
+          <div className='col-sm-6'>
+            <FormGroup>
+              <Label for="examplePassword"></Label>
+              <Input type="password" name="password" id="examplePassword" placeholder="Password" />
+            </FormGroup>
+          </div>          
         
-        <FormGroup>
-          <Label for="exampleText">Text Area</Label>
-          <Input type="textarea" name="text" id="exampleText" />
-        </FormGroup>
-      
-        <FormGroup tag="fieldset">
-          <legend>Radio Buttons</legend>
-          
+          <div className='col-sm-6'>        
+            <FormGroup>
+              <Label for="exampleText"></Label>
+              <Input type="textarea" name="text" id="exampleText" placeholder="Unos teksta"/>
+            </FormGroup>  
+          </div>
+          <div className='col-sm-6'>
+        <FormGroup tag="fieldset">  
           
         </FormGroup>
         <FormGroup check>
           <Label check>
             <Input type="checkbox" />{' '}
-            Check me out
+            Nisam robot
           </Label>
         </FormGroup>
-        <Button>Posalji</Button>
+        <br />
+        <Button>Pošalji</Button>
+        </div>
       </Form>
     </div>
      
