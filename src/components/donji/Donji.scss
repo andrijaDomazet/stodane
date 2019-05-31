@@ -1,0 +1,39 @@
+.donji{
+    margin: 0 auto;
+    /* background: red; */
+    padding-bottom: 15%;
+    align-self: auto;
+}
+h3{
+    text-align: center;
+}
+
+.drugo{
+
+    background-color: #ff8000;
+    width: 9rem;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius:0 !important;
+    color:white !important;
+    text-align: center;
+text-transform: uppercase;
+}
+.robotDiv{
+    height: 100% !important;
+    margin:0;
+    padding: 0;
+    .robot{
+    float: right;
+}
+}
+
+
+.unosTeksta{
+    height: 100% !important;
+    margin:0;
+    padding: 0;
+    .unosStyle{
+        height: 8rem;
+    }
+}

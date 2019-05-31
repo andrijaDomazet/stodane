@@ -27,8 +27,8 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar  fixed={`top`} light expand="md">
-        <img src={Slika3} width="auto" alt="slika2"/>          
+        <Navbar style={{marginTop: "-6%"}} light expand="md">
+        <img src={Slika3} width="8%" alt="slika2"/>          
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
