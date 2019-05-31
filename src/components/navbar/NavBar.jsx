@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 import {
   Collapse,
   Navbar,
-  NavbarToggler, 
+  NavbarToggler,
   Nav,
   NavItem,
-  NavLink} from 'reactstrap';
-  import Slika3 from './img/Tesla-logo.png'
-  import './NavBar.css'
-  
+  NavLink
+} from "reactstrap";
+import Slika3 from "./img/Tesla-logo.png";
+import "./NavBar.css";
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -27,8 +27,8 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar style={{marginTop: "-6%"}} light expand="md">
-        <img src={Slika3} width="8%" alt="slika2"/>          
+        <Navbar style={{ marginTop: "-6%" }} light expand="md">
+          <img src={Slika3} width="8%" alt="slika2" />
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -41,7 +41,6 @@ export default class NavBar extends React.Component {
               <NavItem>
                 <NavLink href="/components/">Link3</NavLink>
               </NavItem>
-        
             </Nav>
           </Collapse>
         </Navbar>

@@ -1,36 +1,35 @@
-.text{
-    margin-top: 10%;
-    align-self: right;
+.text {
+  margin-top: 10%;
+  align-self: right;
 
-  .unutrasnjiDiv{
-      margin-left: 35%;
+  .unutrasnjiDiv {
+    margin-left: 35%;
   }
 }
-.textstyle{
-    margin-top: 1em;
+.textstyle {
+  margin-top: 1em;
 }
-p{
-   font-size: 0.9rem;
-    
-} 
-
-.lead{
-    background-color: #ff8000;
-    position: left;
-    width: 10rem;
-    border-radius:0 !important;
-    color:white !important;
+p {
+  font-size: 0.9rem;
 }
 
-.telefon{
-    height:80vh;
-.slikaTelefona{
+.lead {
+  background-color: #ff8000;
+  position: left;
+  width: 10rem;
+  border-radius: 0 !important;
+  color: white !important;
+}
+
+.telefon {
+  height: 80vh;
+  .slikaTelefona {
     display: block;
-    max-width:150%;
+    max-width: 150%;
     margin-left: -25%;
-}
+  }
 }
 .row {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
